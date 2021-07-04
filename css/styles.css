@@ -72,7 +72,11 @@ hr {
 hr:not([size]) {
   height: 1px;
 }
-
+h1 {
+display: flex;
+align-self: center;
+justify-content: center;
+}
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -128,7 +132,10 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
-
+.titre {
+color: aqua;
+margin-left: 15%;
+}
 abbr[title],
 abbr[data-bs-original-title] {
   -webkit-text-decoration: underline dotted;
